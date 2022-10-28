@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="card">
+            <div class="inner-box">
+                <div class="card-back">
+                    <h2>REGISTER</h2>
+                    <form action="success.html" method="post">
+                        <input type="text" class="input-box" placeholder="First name" required>
+                        <input type="text" class="input-box" placeholder="Last name" required>
+                        <input type="tel" class="input-box" placeholder="Phone number" maxlength="14" required>
+                        <input type="email" class="input-box" placeholder="Email" id="email" required>
+                        <h3 class="Gender">Gender</h3>
+                        <select class="gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                        <input type="date" class="input-box" placeholder="birthday" id="birthday" required>
+                        <h3 class="Gender">Favorite color</h3>
+                        <input type="color" value="#ff0000" id="color">
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <input type="checkbox"><span class="me">Remember Me</span>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
