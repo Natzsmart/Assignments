@@ -1,1 +1,0 @@
-Zuri Training for Fullstack.
